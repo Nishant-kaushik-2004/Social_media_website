@@ -1,0 +1,57 @@
+.app-container{
+display: flex;
+}
+.content{
+  width:100%;
+  /* position:fixed; */
+}
+.navbar-container{
+  height: 80px;
+  position:sticky;
+  top: 0;
+  z-index: 10;
+}
+.sidebar{
+  height: 100vh;
+  position:sticky;
+  top: 0;
+}
+.post-card{
+  width: 90%;
+  margin: 30px 50px;
+  padding: 0px;
+}
+.tags{
+  margin: 0px 5px;
+}
+.reactions{
+  width:fit-content;
+  margin: 20px 0 0 0 ;
+  padding: 2px 5px;
+}
+.like-btn{
+  font-size: 18px;
+}
+.create-post{
+  margin: 50px 10% 0 10% ;
+}
+.welcome_msg{
+  margin-top:100px;
+  /* color:brown; */
+}
+.get-post-btn{
+  margin: 30px 0 100px 0;
+}
+.loading-spinner{
+  margin: 10% 0;
+}
+.delete-btn{
+  cursor:pointer;
+}
+/* Disable scrolling */
+body {
+  /* overflow: hidden; */
+  scroll-behavior: smooth;
+  scrollbar-3dlight-color: blue;
+  scrollbar-gutter:initial;
+}
