@@ -40,7 +40,6 @@ const PostListProvider = ({ children }) => {
     return localStorage.getItem("activeTab") || "Home";
   });
 
-  // localStorage is set 1/2 sec later intentionally to avoid setting before checking already it stored something or not.
   useEffect(() => {
     if (postList.length !== 0) {
       localStorage.setItem("postlist", JSON.stringify(postList));
